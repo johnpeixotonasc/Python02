@@ -11,3 +11,7 @@ def home(request):
 def form(request):
     data = {'form': CarrosForm()}
     return render(request, 'form.html', data)
+
+
+def cadastro(request):
+    return render(request, 'cadastro.html')
