@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from app.forms import CarrosForm
 
-#Create your views here
+# Create your views here
 
 
 def home(request):
@@ -9,6 +9,5 @@ def home(request):
 
 
 def form(request):
-    data = {}
-    data['form'] = CarrosForm()
+    data = {'form': CarrosForm()}
     return render(request, 'form.html', data)
