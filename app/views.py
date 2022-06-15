@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from app.forms import CarrosForm
 
-# Create your views here
+# Criando novas telas
 
 
 def home(request):
